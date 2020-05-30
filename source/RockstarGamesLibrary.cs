@@ -24,6 +24,11 @@ namespace RockstarGamesLibrary
 
         public override LibraryClient Client { get; } = new RockstarGamesLibraryClient();
 
+        public override LibraryPluginCapabilities Capabilities { get; } = new LibraryPluginCapabilities
+        {
+            CanShutdownClient = true
+        };
+
         public RockstarGamesLibrary(IPlayniteAPI api) : base(api)
         {
         }
