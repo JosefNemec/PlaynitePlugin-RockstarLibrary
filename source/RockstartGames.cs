@@ -24,7 +24,7 @@ namespace RockstarGamesLibrary
             new RockstarGame
             {
                 Name = "Grand Theft Auto V",
-                Executable = "GTA5.exe",
+                Executable = "PlayGTAV.exe",
                 TitleId = "gta5"
             },
             new RockstarGame
