@@ -1,3 +1,6 @@
+# MOVED TO https://github.com/JosefNemec/PlayniteExtensions
+
+
 Info
 ---------
 
